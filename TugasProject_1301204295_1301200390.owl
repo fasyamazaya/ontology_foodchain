@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/food-chain-ontology#"
+     xml:base="http://www.semanticweb.org/food-chain-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/food-chain-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#diDekomposisi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#diDekomposisi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#dimakanOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#dimakanOleh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#memilikiOrganisme -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#memilikiOrganisme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#merupakanDekomposer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#merupakanDekomposer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenPrimer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenPrimer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenSekunder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenSekunder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenTersier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#merupakanKonsumenTersier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#merupakanProdusenUntuk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#merupakanProdusenUntuk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#terdiriAtas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/food-chain-ontology#terdiriAtas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#Dekomposer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#Dekomposer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#KonsumenTersier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenTersier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#Organisme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#Organisme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#Produsen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#Produsen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#RantaiMakanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/food-chain-ontology#RantaiMakanan"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#allValuesFrom -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#onProperty -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#onProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#alga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#alga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Produsen"/>
+        <diDekomposisi rdf:resource="http://www.semanticweb.org/food-chain-ontology#ascomycota"/>
+        <merupakanProdusenUntuk rdf:resource="http://www.semanticweb.org/food-chain-ontology#ikanKecil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#animalia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#animalia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Organisme"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#harimau"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#singa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#ascomycota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#ascomycota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Dekomposer"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#alga"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#rumput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#babiHutan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#babiHutan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#bakteri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#bakteri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Dekomposer"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#serigala"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#ular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#belalang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#belalang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#burungElang"/>
+        <merupakanKonsumenPrimer rdf:resource="http://www.semanticweb.org/food-chain-ontology#rumput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#burungElang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#burungElang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#ular"/>
+        <merupakanKonsumenSekunder rdf:resource="http://www.semanticweb.org/food-chain-ontology#ikanKecil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#cacingTanah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#cacingTanah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Dekomposer"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#harimau"/>
+        <merupakanDekomposer rdf:resource="http://www.semanticweb.org/food-chain-ontology#pohonMangga"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#fungi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#fungi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Organisme"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#ascomycota"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#bakteri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#harimau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#harimau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenTersier"/>
+        <diDekomposisi rdf:resource="http://www.semanticweb.org/food-chain-ontology#bakteri"/>
+        <merupakanKonsumenTersier rdf:resource="http://www.semanticweb.org/food-chain-ontology#singa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#hyena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#hyena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#serigala"/>
+        <merupakanKonsumenSekunder rdf:resource="http://www.semanticweb.org/food-chain-ontology#sapi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#ikanBuntal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#ikanBuntal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+        <merupakanKonsumenSekunder rdf:resource="http://www.semanticweb.org/food-chain-ontology#kepiting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#ikanKecil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#ikanKecil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#burungElang"/>
+        <merupakanKonsumenPrimer rdf:resource="http://www.semanticweb.org/food-chain-ontology#alga"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#kambing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#kambing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#katak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#katak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#kelinci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#kelinci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#hyena"/>
+        <merupakanKonsumenPrimer rdf:resource="http://www.semanticweb.org/food-chain-ontology#rumput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#kepiting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#kepiting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#plantae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#plantae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Organisme"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#alga"/>
+        <terdiriAtas rdf:resource="http://www.semanticweb.org/food-chain-ontology#rumput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#pohonMangga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#pohonMangga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Produsen"/>
+        <diDekomposisi rdf:resource="http://www.semanticweb.org/food-chain-ontology#cacingTanah"/>
+        <merupakanProdusenUntuk rdf:resource="http://www.semanticweb.org/food-chain-ontology#burungElang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#rantaiMakananHutan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#rantaiMakananHutan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#RantaiMakanan"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#harimau"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#serigala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#rantaiMakananLaut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#rantaiMakananLaut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#RantaiMakanan"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#ikanBuntal"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#kepiting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#rantaiMakananPadangRumput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#rantaiMakananPadangRumput">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#RantaiMakanan"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#kambing"/>
+        <memilikiOrganisme rdf:resource="http://www.semanticweb.org/food-chain-ontology#sapi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#rumput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#rumput">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#Produsen"/>
+        <diDekomposisi rdf:resource="http://www.semanticweb.org/food-chain-ontology#ascomycota"/>
+        <merupakanProdusenUntuk rdf:resource="http://www.semanticweb.org/food-chain-ontology#sapi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#sapi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#sapi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#serigala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#serigala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenTersier"/>
+        <merupakanKonsumenTersier rdf:resource="http://www.semanticweb.org/food-chain-ontology#babiHutan"/>
+        <merupakanKonsumenTersier rdf:resource="http://www.semanticweb.org/food-chain-ontology#kelinci"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#singa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#singa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+        <dimakanOleh rdf:resource="http://www.semanticweb.org/food-chain-ontology#harimau"/>
+        <merupakanKonsumenSekunder rdf:resource="http://www.semanticweb.org/food-chain-ontology#kelinci"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/food-chain-ontology#ular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/food-chain-ontology#ular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/food-chain-ontology#KonsumenTersier"/>
+        <diDekomposisi rdf:resource="http://www.semanticweb.org/food-chain-ontology#bakteri"/>
+        <merupakanKonsumenTersier rdf:resource="http://www.semanticweb.org/food-chain-ontology#katak"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#allValuesFrom"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#Dekomposer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenPrimer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenSekunder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#KonsumenTersier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#Organisme"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#Produsen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/food-chain-ontology#RantaiMakanan"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
