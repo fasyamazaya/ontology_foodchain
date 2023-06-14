@@ -258,54 +258,6 @@
         <Class IRI="#KonsumenTersier"/>
         <NamedIndividual IRI="#ular"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483675"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483676"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483679"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483681"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483684"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483685"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483686"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:onProperty"/>
-        <AnonymousIndividual nodeID="_:genid2147483688"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483690"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-        <AnonymousIndividual nodeID="_:genid2147483691"/>
-    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#diDekomposisi"/>
         <NamedIndividual IRI="#alga"/>
