@@ -34,12 +34,6 @@
         <Class IRI="#RantaiMakanan"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="owl:allValuesFrom"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="owl:onProperty"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#diDekomposisi"/>
     </Declaration>
     <Declaration>
