@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/food-chain-ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/food-chain-ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/food-chain-ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Dekomposer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonsumenPrimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonsumenSekunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonsumenTersier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produsen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RantaiMakanan"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:onProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diDekomposisi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dimakanOleh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#merupakanKonsumenPrimer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#merupakanKonsumenSekunder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#merupakanKonsumenTersier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#merupakanProdusenUntuk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#terdiriAtas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#animalia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ascomycota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#babiHutan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bakteri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belalang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#burungElang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cacingTanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fungi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harimau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hyena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ikanBuntal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ikanKecil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kambing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#katak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelinci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kepiting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plantae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pohonMangga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rantaiMakananHutan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rantaiMakananLaut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rantaiMakananPadangRumput"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rumput"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sapi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serigala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#singa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ular"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#Dekomposer"/>
+        <Class IRI="#KonsumenPrimer"/>
+        <Class IRI="#KonsumenSekunder"/>
+        <Class IRI="#KonsumenTersier"/>
+        <Class IRI="#Organisme"/>
+        <Class IRI="#Produsen"/>
+        <Class IRI="#RantaiMakanan"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Produsen"/>
+        <NamedIndividual IRI="#alga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organisme"/>
+        <NamedIndividual IRI="#animalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dekomposer"/>
+        <NamedIndividual IRI="#ascomycota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#babiHutan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dekomposer"/>
+        <NamedIndividual IRI="#bakteri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#belalang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#burungElang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dekomposer"/>
+        <NamedIndividual IRI="#cacingTanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organisme"/>
+        <NamedIndividual IRI="#fungi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenTersier"/>
+        <NamedIndividual IRI="#harimau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#hyena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#ikanBuntal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#ikanKecil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#kambing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#katak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#kelinci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#kepiting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organisme"/>
+        <NamedIndividual IRI="#plantae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsen"/>
+        <NamedIndividual IRI="#pohonMangga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RantaiMakanan"/>
+        <NamedIndividual IRI="#rantaiMakananHutan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RantaiMakanan"/>
+        <NamedIndividual IRI="#rantaiMakananLaut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RantaiMakanan"/>
+        <NamedIndividual IRI="#rantaiMakananPadangRumput"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produsen"/>
+        <NamedIndividual IRI="#rumput"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenPrimer"/>
+        <NamedIndividual IRI="#sapi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenTersier"/>
+        <NamedIndividual IRI="#serigala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenSekunder"/>
+        <NamedIndividual IRI="#singa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KonsumenTersier"/>
+        <NamedIndividual IRI="#ular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:onProperty"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:allValuesFrom"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDekomposisi"/>
+        <NamedIndividual IRI="#alga"/>
+        <NamedIndividual IRI="#ascomycota"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanProdusenUntuk"/>
+        <NamedIndividual IRI="#alga"/>
+        <NamedIndividual IRI="#ikanKecil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#animalia"/>
+        <NamedIndividual IRI="#harimau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#animalia"/>
+        <NamedIndividual IRI="#singa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#ascomycota"/>
+        <NamedIndividual IRI="#alga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#ascomycota"/>
+        <NamedIndividual IRI="#rumput"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#bakteri"/>
+        <NamedIndividual IRI="#serigala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#bakteri"/>
+        <NamedIndividual IRI="#ular"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#belalang"/>
+        <NamedIndividual IRI="#burungElang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenPrimer"/>
+        <NamedIndividual IRI="#belalang"/>
+        <NamedIndividual IRI="#rumput"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#burungElang"/>
+        <NamedIndividual IRI="#ular"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenSekunder"/>
+        <NamedIndividual IRI="#burungElang"/>
+        <NamedIndividual IRI="#ikanKecil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#cacingTanah"/>
+        <NamedIndividual IRI="#harimau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanDekomposer"/>
+        <NamedIndividual IRI="#cacingTanah"/>
+        <NamedIndividual IRI="#pohonMangga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#fungi"/>
+        <NamedIndividual IRI="#ascomycota"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#fungi"/>
+        <NamedIndividual IRI="#bakteri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDekomposisi"/>
+        <NamedIndividual IRI="#harimau"/>
+        <NamedIndividual IRI="#bakteri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenTersier"/>
+        <NamedIndividual IRI="#harimau"/>
+        <NamedIndividual IRI="#singa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#hyena"/>
+        <NamedIndividual IRI="#serigala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenSekunder"/>
+        <NamedIndividual IRI="#hyena"/>
+        <NamedIndividual IRI="#sapi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenSekunder"/>
+        <NamedIndividual IRI="#ikanBuntal"/>
+        <NamedIndividual IRI="#kepiting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#ikanKecil"/>
+        <NamedIndividual IRI="#burungElang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenPrimer"/>
+        <NamedIndividual IRI="#ikanKecil"/>
+        <NamedIndividual IRI="#alga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#kelinci"/>
+        <NamedIndividual IRI="#hyena"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenPrimer"/>
+        <NamedIndividual IRI="#kelinci"/>
+        <NamedIndividual IRI="#rumput"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#plantae"/>
+        <NamedIndividual IRI="#alga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#terdiriAtas"/>
+        <NamedIndividual IRI="#plantae"/>
+        <NamedIndividual IRI="#rumput"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDekomposisi"/>
+        <NamedIndividual IRI="#pohonMangga"/>
+        <NamedIndividual IRI="#cacingTanah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanProdusenUntuk"/>
+        <NamedIndividual IRI="#pohonMangga"/>
+        <NamedIndividual IRI="#burungElang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananHutan"/>
+        <NamedIndividual IRI="#harimau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananHutan"/>
+        <NamedIndividual IRI="#serigala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananLaut"/>
+        <NamedIndividual IRI="#ikanBuntal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananLaut"/>
+        <NamedIndividual IRI="#kepiting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananPadangRumput"/>
+        <NamedIndividual IRI="#kambing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiOrganisme"/>
+        <NamedIndividual IRI="#rantaiMakananPadangRumput"/>
+        <NamedIndividual IRI="#sapi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDekomposisi"/>
+        <NamedIndividual IRI="#rumput"/>
+        <NamedIndividual IRI="#ascomycota"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanProdusenUntuk"/>
+        <NamedIndividual IRI="#rumput"/>
+        <NamedIndividual IRI="#sapi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenTersier"/>
+        <NamedIndividual IRI="#serigala"/>
+        <NamedIndividual IRI="#babiHutan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenTersier"/>
+        <NamedIndividual IRI="#serigala"/>
+        <NamedIndividual IRI="#kelinci"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dimakanOleh"/>
+        <NamedIndividual IRI="#singa"/>
+        <NamedIndividual IRI="#harimau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenSekunder"/>
+        <NamedIndividual IRI="#singa"/>
+        <NamedIndividual IRI="#kelinci"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDekomposisi"/>
+        <NamedIndividual IRI="#ular"/>
+        <NamedIndividual IRI="#bakteri"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#merupakanKonsumenTersier"/>
+        <NamedIndividual IRI="#ular"/>
+        <NamedIndividual IRI="#katak"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
